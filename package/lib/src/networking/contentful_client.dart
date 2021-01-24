@@ -37,7 +37,7 @@ class ContentfulClient {
     @required this.client,
     @required this.spaceId,
   })  : host = _delivery,
-        environmentId = 'master';
+        environmentId = 'environments';
 
   void close() {
     client.close();
