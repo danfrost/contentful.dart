@@ -106,7 +106,7 @@ class ContentfulClient {
     final url = Uri(
       scheme: 'https',
       host: host,
-      path: '/spaces/$spaceId/$path',
+      path: '/spaces/$spaceId/$environmentId/master/$path',
       queryParameters: params,
     );
     print(url);
